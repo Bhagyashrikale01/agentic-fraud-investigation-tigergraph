@@ -1,0 +1,1496 @@
+[
+  {
+    "case_id": "HHG-001",
+    "node_type": "CASE",
+    "node_id": "HHG-001",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C12382",
+    "pattern": "none",
+    "fraud_probability": 0.61
+  },
+  {
+    "case_id": "HHG-001",
+    "node_type": "CUSTOMER",
+    "node_id": "C12382",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3514030,
+    "pattern": "none",
+    "fraud_probability": 0.61
+  },
+  {
+    "case_id": "HHG-001",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-001_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.61
+  },
+  {
+    "case_id": "HHG-001",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-001_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.61
+  },
+  {
+    "case_id": "HHG-001",
+    "node_type": "ACTION",
+    "node_id": "HHG-001_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.61
+  },
+  {
+    "case_id": "HHG-001",
+    "node_type": "ACTION",
+    "node_id": "HHG-001_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.61
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "CASE",
+    "node_id": "HHG-002",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C11891",
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "CUSTOMER",
+    "node_id": "C11891",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3478782,
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-002_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-002_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "ACTION",
+    "node_id": "HHG-002_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "ACTION",
+    "node_id": "HHG-002_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "STEP_UP_AUTH",
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-002",
+    "node_type": "ACTION",
+    "node_id": "HHG-002_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.79
+  },
+  {
+    "case_id": "HHG-003",
+    "node_type": "CASE",
+    "node_id": "HHG-003",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C08623",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-003",
+    "node_type": "CUSTOMER",
+    "node_id": "C08623",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3530164,
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-003",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-003_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-003",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-003_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-003",
+    "node_type": "ACTION",
+    "node_id": "HHG-003_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-003",
+    "node_type": "ACTION",
+    "node_id": "HHG-003_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "CASE",
+    "node_id": "HHG-004",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C08106",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "CUSTOMER",
+    "node_id": "C08106",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3583227,
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-004_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-004_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-004_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C03095",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "ACTION",
+    "node_id": "HHG-004_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "ACTION",
+    "node_id": "HHG-004_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-004",
+    "node_type": "ACTION",
+    "node_id": "HHG-004_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.49
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "CASE",
+    "node_id": "HHG-005",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C02923",
+    "pattern": "none",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "CUSTOMER",
+    "node_id": "C02923",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3523199,
+    "pattern": "none",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-005_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-005_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-005_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01154",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-005_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C02342",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-005_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C13058",
+    "pattern": "card_not_present_fraud, out_of_region_use",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "ACTION",
+    "node_id": "HHG-005_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-005",
+    "node_type": "ACTION",
+    "node_id": "HHG-005_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.69
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "CASE",
+    "node_id": "HHG-006",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C07297",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "CUSTOMER",
+    "node_id": "C07297",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3476682,
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-006_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-006_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-006_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C05690",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-006_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C02285",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-006_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01154",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "ACTION",
+    "node_id": "HHG-006_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-006",
+    "node_type": "ACTION",
+    "node_id": "HHG-006_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.4
+  },
+  {
+    "case_id": "HHG-007",
+    "node_type": "CASE",
+    "node_id": "HHG-007",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C09933",
+    "pattern": "none",
+    "fraud_probability": 0.87
+  },
+  {
+    "case_id": "HHG-007",
+    "node_type": "CUSTOMER",
+    "node_id": "C09933",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3514948,
+    "pattern": "none",
+    "fraud_probability": 0.87
+  },
+  {
+    "case_id": "HHG-007",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-007_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.87
+  },
+  {
+    "case_id": "HHG-007",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-007_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.87
+  },
+  {
+    "case_id": "HHG-007",
+    "node_type": "ACTION",
+    "node_id": "HHG-007_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "BLOCK_CARD",
+    "pattern": "none",
+    "fraud_probability": 0.87
+  },
+  {
+    "case_id": "HHG-007",
+    "node_type": "ACTION",
+    "node_id": "HHG-007_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.87
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "CASE",
+    "node_id": "HHG-008",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C13171",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "CUSTOMER",
+    "node_id": "C13171",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3558054,
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-008_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-008_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-008_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C11807",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-008_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C09742",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-008_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C08943",
+    "pattern": "account_takeover, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "ACTION",
+    "node_id": "HHG-008_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "ACTION",
+    "node_id": "HHG-008_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-008",
+    "node_type": "ACTION",
+    "node_id": "HHG-008_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.63
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "CASE",
+    "node_id": "HHG-009",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C08299",
+    "pattern": "none",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "CUSTOMER",
+    "node_id": "C08299",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3581141,
+    "pattern": "none",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-009_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-009_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-009_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C02809",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-009_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C08943",
+    "pattern": "account_takeover, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-009_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C04196",
+    "pattern": "card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "ACTION",
+    "node_id": "HHG-009_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-009",
+    "node_type": "ACTION",
+    "node_id": "HHG-009_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.43
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "CASE",
+    "node_id": "HHG-010",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C10434",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "CUSTOMER",
+    "node_id": "C10434",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3506725,
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-010_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-010_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-010_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C12900",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-010_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C11381",
+    "pattern": "account_takeover, out_of_region_use",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-010_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C07612",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "ACTION",
+    "node_id": "HHG-010_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "BLOCK_CARD",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "ACTION",
+    "node_id": "HHG-010_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-010",
+    "node_type": "ACTION",
+    "node_id": "HHG-010_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "CASE",
+    "node_id": "HHG-011",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C11923",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "CUSTOMER",
+    "node_id": "C11923",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3583368,
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-011_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-011_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-011_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C05678",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-011_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C05595",
+    "pattern": "card_not_present_fraud",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "ACTION",
+    "node_id": "HHG-011_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "ACTION",
+    "node_id": "HHG-011_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-011",
+    "node_type": "ACTION",
+    "node_id": "HHG-011_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.54
+  },
+  {
+    "case_id": "HHG-012",
+    "node_type": "CASE",
+    "node_id": "HHG-012",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C05876",
+    "pattern": "none",
+    "fraud_probability": 0.55
+  },
+  {
+    "case_id": "HHG-012",
+    "node_type": "CUSTOMER",
+    "node_id": "C05876",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3553342,
+    "pattern": "none",
+    "fraud_probability": 0.55
+  },
+  {
+    "case_id": "HHG-012",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-012_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.55
+  },
+  {
+    "case_id": "HHG-012",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-012_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.55
+  },
+  {
+    "case_id": "HHG-012",
+    "node_type": "ACTION",
+    "node_id": "HHG-012_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.55
+  },
+  {
+    "case_id": "HHG-012",
+    "node_type": "ACTION",
+    "node_id": "HHG-012_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.55
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "CASE",
+    "node_id": "HHG-013",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C07671",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "CUSTOMER",
+    "node_id": "C07671",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3526826,
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-013_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-013_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-013_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C05690",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-013_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C00405",
+    "pattern": "card_not_present_fraud",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-013_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C03095",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "ACTION",
+    "node_id": "HHG-013_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "BLOCK_CARD",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "ACTION",
+    "node_id": "HHG-013_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-013",
+    "node_type": "ACTION",
+    "node_id": "HHG-013_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "CASE",
+    "node_id": "HHG-014",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C13487",
+    "pattern": "none",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "CUSTOMER",
+    "node_id": "C13487",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3478561,
+    "pattern": "none",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-014_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-014_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-014_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C02910",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-014_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01996",
+    "pattern": "card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-014_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C06031",
+    "pattern": "out_of_region_use",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-014",
+    "node_type": "ACTION",
+    "node_id": "HHG-014_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "MONITOR_CARD",
+    "pattern": "none",
+    "fraud_probability": 0.18
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "CASE",
+    "node_id": "HHG-015",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C03042",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "CUSTOMER",
+    "node_id": "C03042",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3464869,
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-015_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-015_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-015_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C11413",
+    "pattern": "card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-015_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C05292",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "ACTION",
+    "node_id": "HHG-015_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "BLOCK_CARD",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "ACTION",
+    "node_id": "HHG-015_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-015",
+    "node_type": "ACTION",
+    "node_id": "HHG-015_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.92
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "CASE",
+    "node_id": "HHG-016",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C09988",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "CUSTOMER",
+    "node_id": "C09988",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3534820,
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-016_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-016_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-016_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C03095",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-016_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C05423",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-016_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C10010",
+    "pattern": "account_takeover, out_of_region_use",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "ACTION",
+    "node_id": "HHG-016_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "ACTION",
+    "node_id": "HHG-016_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-016",
+    "node_type": "ACTION",
+    "node_id": "HHG-016_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "card_not_present_new_device",
+    "fraud_probability": 0.62
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "CASE",
+    "node_id": "HHG-017",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C04570",
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "CUSTOMER",
+    "node_id": "C04570",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3450629,
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-017_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-017_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-017_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C06220",
+    "pattern": "card_not_present_fraud, out_of_region_use",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-017_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01154",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-017_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C13328",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "ACTION",
+    "node_id": "HHG-017_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "ACTION",
+    "node_id": "HHG-017_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "STEP_UP_AUTH",
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-017",
+    "node_type": "ACTION",
+    "node_id": "HHG-017_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.72
+  },
+  {
+    "case_id": "HHG-018",
+    "node_type": "CASE",
+    "node_id": "HHG-018",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C02354",
+    "pattern": "none",
+    "fraud_probability": 0.48
+  },
+  {
+    "case_id": "HHG-018",
+    "node_type": "CUSTOMER",
+    "node_id": "C02354",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3491361,
+    "pattern": "none",
+    "fraud_probability": 0.48
+  },
+  {
+    "case_id": "HHG-018",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-018_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.48
+  },
+  {
+    "case_id": "HHG-018",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-018_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.48
+  },
+  {
+    "case_id": "HHG-018",
+    "node_type": "ACTION",
+    "node_id": "HHG-018_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.48
+  },
+  {
+    "case_id": "HHG-018",
+    "node_type": "ACTION",
+    "node_id": "HHG-018_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.48
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "CASE",
+    "node_id": "HHG-019",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C07987",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "CUSTOMER",
+    "node_id": "C07987",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3503878,
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-019_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-019_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-019_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01104",
+    "pattern": "account_takeover, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-019_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01983",
+    "pattern": "card_not_present_fraud, card_not_present_new_device",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "ACTION",
+    "node_id": "HHG-019_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "BLOCK_CARD",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "ACTION",
+    "node_id": "HHG-019_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-019",
+    "node_type": "ACTION",
+    "node_id": "HHG-019_ACTION_3",
+    "relation": "RECOMMENDS",
+    "related_node": "FILE_REPORT",
+    "pattern": "account_takeover",
+    "fraud_probability": 0.99
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "CASE",
+    "node_id": "HHG-020",
+    "relation": "INVOLVES_CUSTOMER",
+    "related_node": "C12265",
+    "pattern": "none",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "CUSTOMER",
+    "node_id": "C12265",
+    "relation": "HAS_TRANSACTION",
+    "related_node": 3509359,
+    "pattern": "none",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-020_EVIDENCE_1",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_transactions",
+    "pattern": "none",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "EVIDENCE",
+    "node_id": "HHG-020_EVIDENCE_2",
+    "relation": "SUPPORTS_CASE",
+    "related_node": "benchmark_customer_history",
+    "pattern": "none",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-020_DEVICE_3",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C12094",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-020_DEVICE_4",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C00094",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "DEVICE_EVIDENCE",
+    "node_id": "HHG-020_DEVICE_5",
+    "relation": "CANDIDATE_DEVICE_FINGERPRINT_MATCH",
+    "related_node": "C01154",
+    "pattern": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "ACTION",
+    "node_id": "HHG-020_ACTION_1",
+    "relation": "RECOMMENDS",
+    "related_node": "VERIFY_WITH_CUSTOMER",
+    "pattern": "none",
+    "fraud_probability": 0.67
+  },
+  {
+    "case_id": "HHG-020",
+    "node_type": "ACTION",
+    "node_id": "HHG-020_ACTION_2",
+    "relation": "RECOMMENDS",
+    "related_node": "CREATE_CASE",
+    "pattern": "none",
+    "fraud_probability": 0.67
+  }
+]
