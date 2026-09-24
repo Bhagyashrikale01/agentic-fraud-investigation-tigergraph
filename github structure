@@ -1,0 +1,102 @@
+
+Recommended repository name:
+
+`agentic-fraud-investigation-tigergraph`
+
+## Repository layout
+
+```text
+agentic-fraud-investigation-tigergraph/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── src/
+│   ├── final_agent.py
+│   └── create_case_graph.py
+│
+├── data/
+│   ├── case_pack.csv
+│   ├── benchmark_transactions.csv
+│   ├── benchmark_customer_history.csv
+│   ├── benchmark_evidence.csv
+│   ├── benchmark_identity.csv
+│   └── benchmark_device_case_evidence_top3.csv
+│
+├── outputs/
+│   ├── final_20_case_outputs.json
+│   ├── case_graph_records.csv
+│   └── case_graph_records.json
+│
+├── tigergraph/
+│   ├── graph_schema.md
+│   ├── gsql_queries.gsql
+│   └── query_examples.md
+│
+└── demo/
+    ├── DEMO_EVIDENCE.md
+    └── screenshots/
+```
+
+## Important GitHub rule
+
+Do not upload the original 700+ MB transaction file if the repository size is a concern.
+
+Use the already-created reduced benchmark/graph-ready files for the public repository. Keep very large/raw source datasets outside the repository unless the challenge explicitly requires them.
+
+## What each folder contains
+
+### `src/`
+
+The executable investigation logic.
+
+- `final_agent.py` — runs the 20 benchmark investigations.
+- `create_case_graph.py` — converts the final outputs into case graph records.
+
+### `data/`
+
+Only the data needed to reproduce the benchmark investigation.
+
+### `outputs/`
+
+Generated submission artifacts.
+
+### `tigergraph/`
+
+TigerGraph/Savanna graph documentation and GSQL examples.
+
+### `demo/`
+
+Screenshots and the demo/evidence plan.
+
+## Recommended commit sequence
+
+```text
+1. Add README and project structure
+2. Add final agent
+3. Add benchmark input files
+4. Add generated 20-case outputs
+5. Add case graph records
+6. Add TigerGraph/GSQL documentation
+7. Add demo screenshots
+8. Final verification
+```
+
+## Suggested repository description
+
+> Agentic fraud investigation system using TigerGraph graph relationships, customer history, device evidence and policy-driven next-best actions.
+
+## Suggested topics
+
+```text
+tigergraph
+fraud-detection
+fraud-investigation
+agentic-ai
+graphrag
+gsql
+python
+risk-analysis
+cybersecurity
+```
