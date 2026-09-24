@@ -1,0 +1,1700 @@
+[
+  {
+    "case": {
+      "case_id": "HHG-001",
+      "customer_id": "C12382",
+      "transaction_id": 3514030,
+      "exposure_usd": 77.07
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3514030,
+        "amount_usd": 77.07,
+        "channel": "in_person",
+        "risk_score_input": 0.61
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.61,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 77.07
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3514030
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C12382"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3514030
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0056
+  },
+  {
+    "case": {
+      "case_id": "HHG-002",
+      "customer_id": "C11891",
+      "transaction_id": 3478782,
+      "exposure_usd": 292.36
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3478782,
+        "amount_usd": 292.36,
+        "channel": "online",
+        "risk_score_input": 0.79
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": true
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.79,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "STEP_UP_AUTH",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 292.36
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3478782
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C11891"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3478782
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0021
+  },
+  {
+    "case": {
+      "case_id": "HHG-003",
+      "customer_id": "C08623",
+      "transaction_id": 3530164,
+      "exposure_usd": 49.0
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3530164,
+        "amount_usd": 49.0,
+        "channel": "in_person",
+        "risk_score_input": 0.4
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.4,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 49.0
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3530164
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C08623"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3530164
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0026
+  },
+  {
+    "case": {
+      "case_id": "HHG-004",
+      "customer_id": "C08106",
+      "transaction_id": 3583227,
+      "exposure_usd": 128.33
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3583227,
+        "amount_usd": 128.33,
+        "channel": "online",
+        "risk_score_input": 0.34
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": true
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C03095",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 232.19,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "card_not_present_new_device",
+      "fraud_probability": 0.49,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 128.33
+    },
+    "stop_reason": "Relevant fraud pattern identified and policy action determined.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3583227
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C08106"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3583227
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0031
+  },
+  {
+    "case": {
+      "case_id": "HHG-005",
+      "customer_id": "C02923",
+      "transaction_id": 3523199,
+      "exposure_usd": 100.07
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3523199,
+        "amount_usd": 100.07,
+        "channel": "online",
+        "risk_score_input": 0.54
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01154",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 19692.61,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C02342",
+        "confirmed_fraud_cases": 9,
+        "patterns": "card_not_present_new_device",
+        "max_historical_exposure_usd": 1200.04,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C13058",
+        "confirmed_fraud_cases": 8,
+        "patterns": "card_not_present_fraud, out_of_region_use",
+        "max_historical_exposure_usd": 901.9,
+        "device_match_count": 8,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.69,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 100.07
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3523199
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C02923"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3523199
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-006",
+      "customer_id": "C07297",
+      "transaction_id": 3476682,
+      "exposure_usd": 482.12
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3476682,
+        "amount_usd": 482.12,
+        "channel": "online",
+        "risk_score_input": 0.25
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": true
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C05690",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 649.99,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C02285",
+        "confirmed_fraud_cases": 10,
+        "patterns": "account_takeover",
+        "max_historical_exposure_usd": 103.86,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01154",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 19692.61,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.4,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 482.12
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3476682
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C07297"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3476682
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-007",
+      "customer_id": "C09933",
+      "transaction_id": 3514948,
+      "exposure_usd": 111.92
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3514948,
+        "amount_usd": 111.92,
+        "channel": "in_person",
+        "risk_score_input": 0.87
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.87,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "BLOCK_CARD",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 111.92
+    },
+    "stop_reason": "Fraud probability reached the high-confidence threshold.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3514948
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C09933"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3514948
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.001
+  },
+  {
+    "case": {
+      "case_id": "HHG-008",
+      "customer_id": "C13171",
+      "transaction_id": 3558054,
+      "exposure_usd": 55.68
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3558054,
+        "amount_usd": 55.68,
+        "channel": "online",
+        "risk_score_input": 0.38
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C11807",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 368.22,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C09742",
+        "confirmed_fraud_cases": 9,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 398.73,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C08943",
+        "confirmed_fraud_cases": 8,
+        "patterns": "account_takeover, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 280.02,
+        "device_match_count": 8,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "card_not_present_new_device",
+      "fraud_probability": 0.63,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 55.68
+    },
+    "stop_reason": "Relevant fraud pattern identified and policy action determined.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3558054
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C13171"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3558054
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.001
+  },
+  {
+    "case": {
+      "case_id": "HHG-009",
+      "customer_id": "C08299",
+      "transaction_id": 3581141,
+      "exposure_usd": 30.02
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3581141,
+        "amount_usd": 30.02,
+        "channel": "online",
+        "risk_score_input": 0.28
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C02809",
+        "confirmed_fraud_cases": 10,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 1950.02,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C08943",
+        "confirmed_fraud_cases": 8,
+        "patterns": "account_takeover, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 280.02,
+        "device_match_count": 8,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C04196",
+        "confirmed_fraud_cases": 7,
+        "patterns": "card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 445.08,
+        "device_match_count": 7,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.43,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 30.02
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3581141
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C08299"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3581141
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-010",
+      "customer_id": "C10434",
+      "transaction_id": 3506725,
+      "exposure_usd": 1000.03
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3506725,
+        "amount_usd": 1000.03,
+        "channel": "online",
+        "risk_score_input": 0.9
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": true
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C12900",
+        "confirmed_fraud_cases": 10,
+        "patterns": "account_takeover",
+        "max_historical_exposure_usd": 15857.38,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C11381",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover, out_of_region_use",
+        "max_historical_exposure_usd": 773.98,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C07612",
+        "confirmed_fraud_cases": 8,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 886.84,
+        "device_match_count": 8,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "account_takeover",
+      "fraud_probability": 0.99,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "BLOCK_CARD",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 1000.03
+    },
+    "stop_reason": "Fraud probability reached the high-confidence threshold.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3506725
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C10434"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3506725
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0024
+  },
+  {
+    "case": {
+      "case_id": "HHG-011",
+      "customer_id": "C11923",
+      "transaction_id": 3583368,
+      "exposure_usd": 131.3
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3583368,
+        "amount_usd": 131.3,
+        "channel": "online",
+        "risk_score_input": 0.39
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": true
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C05678",
+        "confirmed_fraud_cases": 7,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 64.16,
+        "device_match_count": 7,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C05595",
+        "confirmed_fraud_cases": 1,
+        "patterns": "card_not_present_fraud",
+        "max_historical_exposure_usd": 22.48,
+        "device_match_count": 1,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "card_not_present_new_device",
+      "fraud_probability": 0.54,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 131.3
+    },
+    "stop_reason": "Relevant fraud pattern identified and policy action determined.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3583368
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C11923"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3583368
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.003
+  },
+  {
+    "case": {
+      "case_id": "HHG-012",
+      "customer_id": "C05876",
+      "transaction_id": 3553342,
+      "exposure_usd": 30.91
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3553342,
+        "amount_usd": 30.91,
+        "channel": "in_person",
+        "risk_score_input": 0.55
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.55,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 30.91
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3553342
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C05876"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3553342
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0028
+  },
+  {
+    "case": {
+      "case_id": "HHG-013",
+      "customer_id": "C07671",
+      "transaction_id": 3526826,
+      "exposure_usd": 35.66
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3526826,
+        "amount_usd": 35.66,
+        "channel": "online",
+        "risk_score_input": 0.76
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C05690",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 649.99,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C00405",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud",
+        "max_historical_exposure_usd": 309.24,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C03095",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 232.19,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "card_not_present_new_device",
+      "fraud_probability": 0.99,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "BLOCK_CARD",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 35.66
+    },
+    "stop_reason": "Fraud probability reached the high-confidence threshold.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3526826
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C07671"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3526826
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-014",
+      "customer_id": "C13487",
+      "transaction_id": 3478561,
+      "exposure_usd": 74.96
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3478561,
+        "amount_usd": 74.96,
+        "channel": "online",
+        "risk_score_input": 0.05
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C02910",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover",
+        "max_historical_exposure_usd": 699.06,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01996",
+        "confirmed_fraud_cases": 6,
+        "patterns": "card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 802.91,
+        "device_match_count": 6,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C06031",
+        "confirmed_fraud_cases": 4,
+        "patterns": "out_of_region_use",
+        "max_historical_exposure_usd": 155.85,
+        "device_match_count": 4,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.18,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "MONITOR_CARD",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 74.96
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3478561
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C13487"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3478561
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-015",
+      "customer_id": "C03042",
+      "transaction_id": 3464869,
+      "exposure_usd": 599.94
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3464869,
+        "amount_usd": 599.94,
+        "channel": "online",
+        "risk_score_input": 0.77
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": true
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C11413",
+        "confirmed_fraud_cases": 6,
+        "patterns": "card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 449.91,
+        "device_match_count": 6,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C05292",
+        "confirmed_fraud_cases": 2,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 100.01,
+        "device_match_count": 2,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "card_not_present_new_device",
+      "fraud_probability": 0.92,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "BLOCK_CARD",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 599.94
+    },
+    "stop_reason": "Fraud probability reached the high-confidence threshold.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3464869
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C03042"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3464869
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0016
+  },
+  {
+    "case": {
+      "case_id": "HHG-016",
+      "customer_id": "C09988",
+      "transaction_id": 3534820,
+      "exposure_usd": 59.67
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3534820,
+        "amount_usd": 59.67,
+        "channel": "online",
+        "risk_score_input": 0.37
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C03095",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 232.19,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C05423",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 161.29,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C10010",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover, out_of_region_use",
+        "max_historical_exposure_usd": 1464.64,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "card_not_present_new_device",
+      "fraud_probability": 0.62,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 59.67
+    },
+    "stop_reason": "Relevant fraud pattern identified and policy action determined.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3534820
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C09988"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3534820
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-017",
+      "customer_id": "C04570",
+      "transaction_id": 3450629,
+      "exposure_usd": 100.09
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3450629,
+        "amount_usd": 100.09,
+        "channel": "online",
+        "risk_score_input": 0.57
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C06220",
+        "confirmed_fraud_cases": 10,
+        "patterns": "card_not_present_fraud, out_of_region_use",
+        "max_historical_exposure_usd": 331.53,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01154",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 19692.61,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C13328",
+        "confirmed_fraud_cases": 9,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 174.96,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.72,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "STEP_UP_AUTH",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 100.09
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3450629
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C04570"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3450629
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.002
+  },
+  {
+    "case": {
+      "case_id": "HHG-018",
+      "customer_id": "C02354",
+      "transaction_id": 3491361,
+      "exposure_usd": 39.08
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3491361,
+        "amount_usd": 39.08,
+        "channel": "in_person",
+        "risk_score_input": 0.48
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.48,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 39.08
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3491361
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C02354"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3491361
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.0033
+  },
+  {
+    "case": {
+      "case_id": "HHG-019",
+      "customer_id": "C07987",
+      "transaction_id": 3503878,
+      "exposure_usd": 99.92
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3503878,
+        "amount_usd": 99.92,
+        "channel": "online",
+        "risk_score_input": 0.9
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01104",
+        "confirmed_fraud_cases": 6,
+        "patterns": "account_takeover, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 905.81,
+        "device_match_count": 6,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01983",
+        "confirmed_fraud_cases": 3,
+        "patterns": "card_not_present_fraud, card_not_present_new_device",
+        "max_historical_exposure_usd": 300.08,
+        "device_match_count": 3,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "account_takeover",
+      "fraud_probability": 0.99,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "BLOCK_CARD",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "FILE_REPORT",
+        "approval_route": "L1",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": true,
+      "exposure_usd": 99.92
+    },
+    "stop_reason": "Fraud probability reached the high-confidence threshold.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3503878
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C07987"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3503878
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.001
+  },
+  {
+    "case": {
+      "case_id": "HHG-020",
+      "customer_id": "C12265",
+      "transaction_id": 3509359,
+      "exposure_usd": 125.08
+    },
+    "evidence_requests": [],
+    "evidence": [
+      {
+        "source": "benchmark_transactions",
+        "transaction_id": 3509359,
+        "amount_usd": 125.08,
+        "channel": "online",
+        "risk_score_input": 0.52
+      },
+      {
+        "source": "benchmark_customer_history",
+        "previous_transactions": 0,
+        "recent_48h": 0,
+        "online_48h": 0,
+        "amount_unusual": false
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C12094",
+        "confirmed_fraud_cases": 10,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 4141.76,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C00094",
+        "confirmed_fraud_cases": 10,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 550.9,
+        "device_match_count": 10,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      },
+      {
+        "source": "device_case_history",
+        "matched_customer": "C01154",
+        "confirmed_fraud_cases": 9,
+        "patterns": "account_takeover, card_not_present_fraud, card_not_present_new_device, out_of_region_use",
+        "max_historical_exposure_usd": 19692.61,
+        "device_match_count": 9,
+        "interpretation": "Candidate device-fingerprint connection; not proof of same physical device."
+      }
+    ],
+    "assessment": {
+      "pattern": "none",
+      "fraud_probability": 0.67,
+      "risk_score_used_as_trigger_only": true
+    },
+    "next_best_actions": [
+      {
+        "action": "VERIFY_WITH_CUSTOMER",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      },
+      {
+        "action": "CREATE_CASE",
+        "approval_route": "AUTO",
+        "reason": "Action selected from available evidence and fraud policy."
+      }
+    ],
+    "sar": {
+      "required": false,
+      "exposure_usd": 125.08
+    },
+    "stop_reason": "Available evidence supports the current decision.",
+    "tool_calls": [
+      {
+        "tool": "get_transaction_details",
+        "transaction_id": 3509359
+      },
+      {
+        "tool": "get_customer_history",
+        "customer_id": "C12265"
+      },
+      {
+        "tool": "device_case_history_lookup",
+        "transaction_id": 3509359
+      }
+    ],
+    "tokens": {
+      "estimated_input": 0,
+      "estimated_output": 0
+    },
+    "latency_s": 0.001
+  }
+]
